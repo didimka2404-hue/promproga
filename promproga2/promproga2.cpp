@@ -17,7 +17,7 @@ int main() {
     int num;
     setlocale(LC_ALL, "RUSSIAN");
 
-    printf("Введите целое неотрицательное число: ");
+    printf("Введите целое неотрицательное число(pls): ");
     if (scanf("%d", &num) != 1) {
         printf("Ошибка ввода.\n");
         return 1;
