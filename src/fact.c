@@ -3,7 +3,8 @@
 
 int factorial(int n) {
     if (n < 0) {
-        fprintf(stderr, "Negative input not allowed\n");
+        
+	fprintf(stderr, "Error: negative input\n");
         exit(EXIT_FAILURE);
     }
     int result = 1;
