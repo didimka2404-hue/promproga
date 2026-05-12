@@ -1,6 +1,14 @@
 ﻿#include <stdio.h>
 #include <locale.h>
 
+int divide(int a, int b) {
+    if (b == 0) {
+        printf("Error: division by zero!\n");
+        return 0;
+    }
+    return a / b;
+}
+
 int multiply(int a, int b) {
     return a * b;
 }
@@ -28,7 +36,7 @@ int main() {
         return 1;
     }
 
-    
+    printf("10 / 2 = %d\n", divide(10, 2));
     printf("5 * 3 = %d\n", multiply(5, 3));	
     int fact = factorial(num);
     printf("Факториал числа %d равен %d\n", num, fact);
