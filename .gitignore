@@ -1,0 +1,11 @@
+
+*.o
+*.out
+*.exe
+build/
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+commit.log
