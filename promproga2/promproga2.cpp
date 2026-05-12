@@ -15,6 +15,7 @@ int factorial(int n) {
 
 int main() {
     printf("Добрый день молодежь");
+    printf("последний commit ура");
     int num;
     setlocale(LC_ALL, "RUSSIAN");
 
