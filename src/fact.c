@@ -4,7 +4,7 @@
 int factorial(int n) {
     if (n < 0) {
         
-	fprintf(stderr, "Error: negative number\n");
+	fprintf(stderr, "Error: bad input\n");
         exit(EXIT_FAILURE);
     }
     int result = 1;
