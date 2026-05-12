@@ -14,12 +14,14 @@ int factorial(int n) {
 }
 
 int main() {
+    printf(",Добрый, день, молодежь,");
+    printf("последний commit ура");
     int num;
     setlocale(LC_ALL, "RUSSIAN");
 
-    printf("Введите целое неотрицательное число: ");
+    printf("Введите целое неотрицательное число(pls): ");
     if (scanf("%d", &num) != 1) {
-        printf("Ошибка ввода.\n");
+        printf("Ошибка ввода. вы ввели недопустимое начение\n");
         return 1;
     }
 
